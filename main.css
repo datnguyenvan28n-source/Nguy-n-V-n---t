@@ -59,9 +59,8 @@ a {
   color: var(--n-500);
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
-
 section {
   scroll-margin-top: 24px;
 }
