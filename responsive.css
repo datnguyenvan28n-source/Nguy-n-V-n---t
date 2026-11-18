@@ -1,0 +1,58 @@
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1028px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .header__column--right {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+
+  .aboutMe__section {
+    margin: 80px auto;
+
+    & img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .container {
+    max-width: 475px;
+    padding: 0 1rem;
+  }
+
+  
+
+  header {
+    margin-top: 20px;
+  }
+
+  .header__badge_container {
+    flex-direction: column;
+  }
+}
