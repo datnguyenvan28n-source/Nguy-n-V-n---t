@@ -5,11 +5,16 @@ header {
 .header__container {
   display: flex;
   gap: 40px;
-  background-color: #ffffff;
-  border: 1px solid #f1f5f9;
-  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+  background-color: #eef2ff;
+  border: 1px solid #e0e7ff;
   padding: 28px 36px;
   border-radius: 24px;
+}
+
+.badge {
+  background-color: #ffffff;
+  color: #1e40af;
+  border: 1px solid #c7d2fe;
 }
 
 
