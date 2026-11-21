@@ -4,6 +4,7 @@
 @import "footer.css";
 @import "about-me.css";
 @import "projects.css";
+@import "footer.css";
 * {
   box-sizing: border-box;
 }

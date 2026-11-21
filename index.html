@@ -149,5 +149,80 @@
         </div>
       </div>
     </section>
+    <section class="hobby" id="hobby">
+  <h2 class="section__title">Sở Thích</h2>
+  <p class="section__desc">Ngoài giờ code, tôi thích ra sân vận động để giữ sức khỏe và rèn tinh thần đồng đội.</p>
+  
+  <div class="hobby__grid">
+    <article class="hobby__card hobby__card--football">
+      <span class="hobby__icon" aria-hidden="true">⚽</span>
+      <h3 class="hobby__name">Đá bóng</h3>
+      <p class="hobby__text">Đá bóng cùng bạn bè và lớp vào cuối tuần. Môn này dạy tôi phối hợp nhóm, giữ bình tĩnh khi bị dẫn bàn và không bỏ cuộc.</p>
+    </article>
+
+    <article class="hobby__card hobby__card--volley">
+      <span class="hobby__icon" aria-hidden="true">🏐</span>
+      <h3 class="hobby__name">Bóng chuyền</h3>
+      <p class="hobby__text">Chơi bóng chuyền để luyện phản xạ và sự ăn ý. Mỗi pha bóng cần cả đội cùng chạm, giống như làm đồ án nhóm.</p>
+    </article>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact__side">
+    <h2 class="contact__title">Liên hệ với tôi</h2>
+    <p class="contact__lead">Bạn muốn hợp tác làm dự án, hỏi về CV hoặc rủ đá bóng8? Cứ nhắn cho tôi.</p>
+  </div>
+
+  <form class="contact__form" id="contactForm" novalidate>
+    <label class="contact__field">
+      <span class="contact__label">Họ và tên *</span>
+      <input class="contact__input" type="text" name="name" required autocomplete="name">
+    </label>
+    <label class="contact__field">
+      <span class="contact__label">Email *</span>
+      <input class="contact__input" type="email" name="email" required autocomplete="email">
+    </label>
+    <label class="contact__field">
+      <span class="contact__label">Tiêu đề *</span>
+      <input class="contact__input" type="text" name="subject" required>
+    </label>
+    <label class="contact__field">
+      <span class="contact__label">Nội dung tin nhắn *</span>
+      <textarea class="contact__input contact__input--area" name="message" required></textarea>
+    </label>
+
+    <button class="contact__submit" id="contactSubmit" type="submit" disabled>Gửi tin nhắn</button>
+    <p class="contact__note" id="contactNote">Vui lòng điền đủ các mục có dấu *.</p>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__col">
+      <h2 class="footer__name">Nguyễn Văn Đạt</h2>
+      <p class="footer__bio">Sinh viên Công nghệ thông tin, lớp 66K2 CNTT, Trường Đại học Vinh. Đam mê lập trình Web Front-End và xây dựng các sản phẩm phần mềm hữu ích.</p>
+    </div>
+
+    <nav class="footer__col" aria-label="Liên kết nhanh">
+      <h3 class="footer__heading">Liên Kết Nhanh</h3>
+      <a class="footer__link" href="#">Trang chủ</a>
+      <a class="footer__link" href="#skills">Kỹ năng</a>
+      <a class="footer__link" href="#ProjectContainer">Dự án tiêu biểu</a>
+      <a class="footer__link" href="#hobby">Sở thích</a>
+    </nav>
+
+    <div class="footer__col">
+      <h3 class="footer__heading">Kết Nối Với Tôi</h3>
+      <p class="footer__text">Email: dxxxxxxx28h@gmail.com</p>
+      <p class="footer__text">Điện thoại: 096x xxx xxx</p>
+      <div class="footer__social">
+        <a class="footer__btn" href="https://github.com/datnguyenvan28n-source" target="_blank" rel="noopener">GitHub</a>
+        <a class="footer__btn" href="https://www.facebook.com/share/1FiWjHfUaP/?mibextid=wwXIfr/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer__copy">© 2026 Nguyễn Văn Đạt. Hồ sơ cá nhân - lớp LTW_02. All rights reserved.</p>
+</footer>
 </body>
 </html>
